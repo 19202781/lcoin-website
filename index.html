@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCOIN | Community & Transparency on Solana</title>
+    <meta name="description" content="LCOIN is a community-driven token on Solana, designed for payments, savings and DeFi. No hype. Just real people building step by step.">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="bubbles-canvas"></canvas>
+
+    <header class="hero">
+        <img src="logo.png" alt="LCOIN Logo" class="logo">
+        <h1>LCOIN</h1>
+        <p class="subtitle">The future is built in community.</p>
+        <div class="hero-buttons">
+            <a href="https://t.me/+LbjjFunpXq5iY2Nh" target="_blank" rel="noopener noreferrer" class="btn">Join Telegram</a>
+            <a href="https://pump.fun/coin/BFUu1ZkJRHLXw5QVSugjhegxEtnWJUMfkpS6rWX5pump" target="_blank" rel="noopener noreferrer" class="btn">Buy on Pump.fun</a>
+        </div>
+    </header>
+
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-card"><h3>1,000,000,000</h3><p>Total Supply</p></div>
+            <div class="stat-card"><h3>1,000,000,000</h3><p>Circulating Supply</p></div>
+            <div class="stat-card"><h3>4</h3><p>Holders</p></div>
+            <div class="stat-card"><h3>10.22M</h3><p>Creator's Tenure</p></div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>What is LCOIN?</h2>
+        <p>LCOIN is a token built on the Solana network. It was born with a clear vision: to be useful for payments, store of value, and DeFi. No get-rich-quick promises. No hype. Just a community that decides its own path.</p>
+    </section>
+
+    <section class="tokenomics">
+        <h2>Tokenomics</h2>
+        <div class="cards-container">
+            <div class="card"><h3>40%</h3><h4>Community</h4><p>Activity rewards and governance for active holders.</p></div>
+            <div class="card"><h3>25%</h3><h4>Liquidity</h4><p>Locked 12 months to ensure stable trading.</p></div>
+            <div class="card"><h3>15%</h3><h4>DAO Treasury</h4><p>Community fund. Used only with approved voting.</p></div>
+            <div class="card"><h3>10%</h3><h4>Team</h4><p>Full lock 1 year, gradual release over 2 years.</p></div>
+            <div class="card"><h3>10%</h3><h4>Burn</h4><p>Public and verifiable token destruction.</p></div>
+        </div>
+        <p class="tokenomics-note">These percentages apply only to the tokens the creator accumulates through periodic purchases. No holder is required to allocate their funds. Everything will be verifiable on the Solana blockchain.</p>
+    </section>
+
+    <section class="roadmap">
+        <h2>Roadmap</h2>
+        <div class="timeline">
+            <div class="phase"><span class="phase-badge active">In progress</span><h3>Phase 1: Graduation & Community</h3><p>Fill the bonding curve on Pump.fun, migrate to PumpSwap, and strengthen the community on Telegram and X.</p></div>
+            <div class="phase"><span class="phase-badge">2</span><h3>Phase 2: dApp & Solana Pay</h3><p>Create an app where holders connect their Phantom wallet and use LCOIN as a payment method.</p></div>
+            <div class="phase"><span class="phase-badge">3</span><h3>Phase 3: DAO & Governance</h3><p>Activate the community treasury and allow holders to vote on important decisions.</p></div>
+            <div class="phase"><span class="phase-badge">4</span><h3>Phase 4: Alliances & Expansion</h3><p>Financing local development projects and collaborating with merchants to integrate LCOIN as a payment method.</p></div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item"><button class="faq-question" onclick="toggleFAQ(this)">What is LCOIN?<span class="faq-icon">+</span></button><div class="faq-answer" style="display:none;"><p>LCOIN is a token on Solana with a vision for payments, savings, and DeFi. No get-rich-quick promises. No hype. Just a community that decides its own path.</p></div></div>
+            <div class="faq-item"><button class="faq-question" onclick="toggleFAQ(this)">Is it safe?<span class="faq-icon">+</span></button><div class="faq-answer" style="display:none;"><p>Liquidity will be locked for 12 months. Team tokens have strict vesting. Burns are public and verifiable. Everything can be checked on the Solana blockchain.</p></div></div>
+            <div class="faq-item"><button class="faq-question" onclick="toggleFAQ(this)">How can I buy?<span class="faq-icon">+</span></button><div class="faq-answer" style="display:none;"><p>You need a Phantom wallet with SOL. Go to Pump.fun, search for "LCOIN" and swap SOL for LCOIN. There's a step-by-step tutorial in our Telegram group.</p></div></div>
+            <div class="faq-item"><button class="faq-question" onclick="toggleFAQ(this)">What can I do with my LCOIN?<span class="faq-icon">+</span></button><div class="faq-answer" style="display:none;"><p>Join the community, support the project, and in the future, use it for payments via Solana Pay and vote in the DAO.</p></div></div>
+            <div class="faq-item"><button class="faq-question" onclick="toggleFAQ(this)">Is the code safe?<span class="faq-icon">+</span></button><div class="faq-answer" style="display:none;"><p>The code for our future dApp will be fully open-source. Before any official launch that handles real funds, the DAO treasury will pay for a professional external security audit by a recognized firm. The audit report will be published publicly for everyone to read.</p></div></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-text">LCOIN. Built on Solana. Made by the community.</p>
+        <div class="footer-links">
+            <a href="https://x.com/LCOIN_Oficial" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+            <a href="https://t.me/+LbjjFunpXq5iY2Nh" target="_blank" rel="noopener noreferrer">Telegram</a>
+            <a href="https://pump.fun/coin/BFUu1ZkJRHLXw5QVSugjhegxEtnWJUMfkpS6rWX5pump" target="_blank" rel="noopener noreferrer">Pump.fun</a>
+            <a href="Whitepaper_lcoin.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
